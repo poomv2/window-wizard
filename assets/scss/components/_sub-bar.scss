@@ -1,0 +1,25 @@
+.sub-bar {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+  background-color: #642D8C;
+  box-shadow: 0 8px 10px rgba(0,0,0,0.4);
+
+  h1 {
+    padding: 1rem 0;
+    margin-bottom: 0;
+    font-size: rem-calc(30);
+    color: $white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    @include breakpoint(medium up) {
+      padding: 1.5rem 0;
+      font-size: rem-calc(48);
+      text-align: left;
+    }
+
+  }
+}

@@ -1,0 +1,9 @@
+@import 'foundation/settings';
+@import 'foundation';
+
+@include foundation-everything;
+
+@import 'var';
+
+@import 'base/resets';
+@import 'components/index';

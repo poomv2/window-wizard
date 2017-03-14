@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>star copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.032 0.220906977 0.032 22.9998743 23.8366478 22.9998743 23.8366478 0.220906977 0.032 0.220906977"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M23.8144,8.88976744 C23.7648,8.73518605 23.6314667,8.62232558 23.4709333,8.59932558 L15.752,7.47339535 L12.2997333,0.459465116 C12.2293333,0.312906977 12.0810667,0.220906977 11.9189333,0.220906977 C11.7562667,0.220906977 11.6085333,0.312906977 11.5354667,0.459465116 L8.0832,7.47553488 L0.3648,8.59932558 C0.204266667,8.62232558 0.0709333333,8.73518605 0.0208,8.88976744 C-0.0293333333,9.04434884 0.0122666667,9.21604651 0.129066667,9.32890698 L5.71466667,14.7884651 L4.39573333,22.5004186 C4.36853333,22.6587442 4.43306667,22.8218837 4.5648,22.9181628 C4.696,23.0144419 4.87093333,23.0267442 5.0144,22.949186 L11.9189333,19.3098372 L18.8229333,22.949186 C18.8832,22.9828837 18.952,22.9994651 19.0208,22.9994651 C19.1082667,22.9994651 19.1978667,22.972186 19.2709333,22.9181628 C19.4021333,22.8218837 19.4688,22.6587442 19.4416,22.5004186 L18.1226667,14.7906047 L23.7082667,9.32890698 C23.8250667,9.21390698 23.8666667,9.04434884 23.8144,8.88976744 Z" id="path-4"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services---Desktop-HD" transform="translate(-122.000000, -1173.000000)">
+            <g id="star-copy-3" transform="translate(122.000000, 1173.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <g id="Fill-1" mask="url(#mask-2)">
+                    <use fill="#6B3F8C" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-3)" fill-rule="evenodd" style="mix-blend-mode: soft-light;" xlink:href="#path-4"></use>
+                    <use stroke="#FFFFFF" stroke-width="2" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

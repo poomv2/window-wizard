@@ -1,0 +1,30 @@
+{
+  "cwd": "./",
+  "defaultRegistry": "npm",
+  "dest": "htdocs/vendor",
+  "path": "${dest}/${type}/${package}/${file}",
+  "dests": {
+    "images": "images",
+    "fonts": "fonts",
+    "js": "js",
+    "css": "css",
+    "scss": "../../assets/scss/vendor"
+  },
+  "packages": {
+    "npm:jquery": [{
+      "js": "dist/*.min.js"
+    }],
+    "npm:foundation-sites": [{
+      "js": "dist/js/*.min.js",
+      "css": "dist/css/*.min.css"
+    }],
+    "npm:motion-ui": [{
+      "js": "dist/motion-ui.min.js",
+      "css": "dist/motion-ui.min.css"
+    }],
+    "gutenberg-web-type": [{
+      "js": "assets/combined.min.js",
+      "css": "assets/combined.min.css"
+    }]
+  }
+}

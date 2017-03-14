@@ -1,0 +1,35 @@
+.off-canvas {
+  background-color: darken($primary-color, 30%);
+  color: $white;
+  padding: 2rem;
+
+  h3 {
+    padding-bottom: 1rem;
+    font-size: rem-calc(16);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 3px solid $white;
+  }
+
+  ul {
+    margin-top: 2rem;
+
+    li {
+    margin-left: 0;
+    margin-bottom: 2rem;
+
+      a {
+        color: $white;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .close-button {
+    color: $white;
+    top: 1.5rem;
+    right: 2rem;
+  }
+}
